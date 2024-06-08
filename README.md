@@ -1,8 +1,12 @@
-# pofy
-Wanna-be Startup 
-
-## Transparent Proxy
+# Transparent Proxy
 
 - Run the eBPF
-- Run the HTTP Server
+```
+go generate
+go build
+sudo ./proxy
+```
+  
+- Run the HTTP Server from `/test` directory `go run main.go`
+
 - Run `curl http://localhost:8000`
