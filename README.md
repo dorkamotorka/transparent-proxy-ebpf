@@ -6,6 +6,8 @@ In this repository, I implementated Transparent proxy using eBPF. Specifically, 
 
 ## How to Run
 
+https://github.com/user-attachments/assets/325745b2-9be1-43cd-bd64-14fa6ac5f5e0
+
 First build and run the eBPF program:
 ```
 go generate
